@@ -1,16 +1,42 @@
-# note-taker
-saves written notes to local server with Express.js
+# fav-note-taker
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a Save icon appears in the navigation at the top of the page
-WHEN I click on the Save icon
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column
-WHEN I click on the Write icon in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+  # Table of Contents
+  * [Project Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Licensing](#license)
+  * [URLS](#urls)
+  * [Questions](#questions)
+  
+  <a name="description"></a>
+  ## Description
+  A notes app that saves new notes to a server and allows you to delete unwanted notes 
+
+  <a name="install"></a>
+  ## Installation
+  Clone the app and install the necessary packages with 'npm i'. Start the server and visit the localhost with 'npm start'. Otherwise, visit the deployed site.
+
+  <a name="usage"></a>
+  ## Usage
+  Write notes, save them, and delete them.
+  Here is a [video](https://drive.google.com/file/d/1_iQVerYvkmyWjE0pBfpfSEfPejvFMVOP/view) showing how the app functions from a local server.
+
+  <a name="license"></a>
+  ## Licensing
+  This app is licensed under MIT. For more information, click on the badge link above.
+
+  <a name="urls"></a>
+  ## URLS
+  Deployed app: https://yourfavoritenotesapp.herokuapp.com/
+  Repo: https://github.com/rheam97/fav-note-taker.git
+  
+
+  <a name="questions"></a>
+  ## Questions
+  You can find more of my work at [rheam97](https://github.com/rheam97)
+  on GitHub and contact me with any questions
+  at rheam97@gmail.com.
+
+
