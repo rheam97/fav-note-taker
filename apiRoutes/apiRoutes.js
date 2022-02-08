@@ -1,16 +1,14 @@
 const router = require('express').Router()
 const { v4: uuidv4 } = require('uuid')
-const {getNotes} = require('../public/assets/js/index')
 const db = require('../db/db.json')
+const fs = require('fs')
+
 
 router.get('/api/notes', (req, res)=> {
-    let results = db
-    if(req.query){
-        results = getNotes(req.query, results)
-    }
-    res.json(results)
+    res.json(db)
 })
 
 router.post('/api/notes', (req, res)=> {
     
 })
+module.exports = router
